@@ -5,6 +5,10 @@
 ## 구현된 함수
 
 - isArrayLike : ArrayLike 인지 확인하는 함수
-- map : array 와 Object 를 모두 처리할 수 있는 함수
-- indenty : 입력받은 값을 그대로 돌려주는 함수
+- bloop : map 과 each 를 생성하기 위한 헬퍼 함수
+  - map : array 와 Object 를 모두 처리할 수 있는 map 함수
+  - each : array 와 Object 를 모두 처리할 수 있는 each 함수
+- indentity : 입력받은 값을 그대로 돌려주는 함수
 - values : key/value 형식의 데이터의 value 들을 돌려주는 함수
+- push_to : (value, object) value 를 object 에 푸시하는 함수
+- noop : 아무것도 하지 않는 함수 _"아무것도 하지 않는것도 로직이다"_
