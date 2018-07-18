@@ -12,3 +12,4 @@
 - values : key/value 형식의 데이터의 value 들을 돌려주는 함수
 - push_to : (value, object) value 를 object 에 푸시하는 함수
 - noop : 아무것도 하지 않는 함수 _"아무것도 하지 않는것도 로직이다"_
+- array : 빈 배열을 리턴하는 함수
